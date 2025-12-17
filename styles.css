@@ -1,0 +1,107 @@
+/*This is a CSS file with comments */
+
+header {
+    display:flex; /* This makes header elements use flexbox layout */
+    align-items: center; /* This vertically centers child elements of header */
+    justify-content: space-between; /* This spaces child elements of header evenly */
+}
+
+.header-left {
+    display: flex; /* This makes header-left elements use flexbox layout */
+    align-items: center; /* This vertically centers child elements of header-left */
+    gap: 10px; /* This adds a gap of 10 pixels between child elements of header-left */
+}
+
+.header-right {
+    display: flex; /* This makes header-right elements use flexbox layout */
+    align-items: center; /* This vertically centers child elements of header-right */
+    gap: 15px; /* This adds a gap of 15 pixels between child elements of header-right */
+}
+
+header, footer
+ {
+    height: 70px; /* This sets the height of header elements to 70 pixels */
+    background-color: rgb(223, 223, 223); /* This sets the background color of header elements to light gray */
+    padding: 10px; /* This adds padding of 10 pixels inside header elements */
+}
+body {
+    margin: 0px; /* This removes the default margin around the body */
+}
+
+.chat {
+    background-image: url('whatsapp.jpeg'); /* This sets the background image of elements with class 'chat' to 'whatsapp.jpeg' */
+    height: calc(100dvh - 180px); /* This sets the height of elements with class 'chat' to the full viewport height minus 140 pixels */
+    overflow-y: auto; /* This adds a vertical scrollbar to elements with class 'chat-row' if content overflows */
+    font-size: 16px; /* This sets the font size of elements with class 'chat' to 16 pixels */
+} 
+
+.chat-row {
+    margin: 7px; /* This adds a margin of 10 pixels around elements with class 'chat-row' */
+    display: flex; /* This makes chat-row elements use flexbox layout */
+    justify-content: flex-start; /* This aligns child elements of 'chat-row' to the start of the main axis */
+    margin-bottom: 8px; /* This adds a margin of 10 pixels around elements with class 'chat-row' */
+}
+
+.chat-row-sent {
+    padding-left: 32px; /* This adds padding of 32 pixels to the left side of chat-row-sent elements */
+    width:100%; /* This sets the width of chat-row-sent elements to 100% of their container */
+    display: flex; /* This makes chat-row-sent elements use flexbox layout */
+    justify-content: flex-end; /* This aligns child elements of 'chat-row-sent' to the end of the main axis */
+}
+
+.chat-row-received {
+    padding-right: 32px; /* This adds padding of 32 pixels to the right side of chat-row-received elements */
+    width:100%; /* This sets the width of chat-row-received elements to 100% of their container */
+    display: flex; /* This makes chat-row-received elements use flexbox layout */
+    justify-content: flex-start; /* This aligns child elements of 'chat-row-received' to the start of the main axis */
+}
+
+.chat-message {
+    padding: 8px; /* This adds padding of 8 pixels inside elements with class 'chat-message' */
+    border-radius: 8px; /* This gives elements with class 'chat-message' rounded corners with a radius of 8 pixels */
+    box-shadow: 3px 3px 5px #00000080; /* This adds a shadow effect to elements with class 'chat-message' */
+}
+
+.chat-row-sent .chat-message {
+    background-color: #dcf8c6; /* This sets the background color of sent chat messages to a light blue color */
+}
+
+.chat-row-received .chat-message {
+    background-color: #fcf9f9; /* This sets the background color of sent chat messages to a light blue color */
+}
+
+img {
+    width:50px;
+    height:50px;
+    border-radius: 50%; /* This makes images circular by setting the border radius to 50% */
+}
+
+time {
+    font-size: 12px; /* This sets the font size of time elements to 12 pixels */
+    color: gray; /* This sets the text color of time elements to gray */
+    margin-left: 8px; /* This adds a left margin of 8 pixels to time elements */
+}
+
+footer {
+    display: flex; /* This makes footer elements use flexbox layout */
+    align-items: center; /* This vertically centers child elements of footer */
+    gap: 20px; /* This adds a gap of 20 pixels between child elements of footer */
+}
+
+input {
+    width:100%; /* This sets the width of input elements to 100% of their container */
+    border-radius: 20px; /* This gives input elements rounded corners with a radius of 20 pixels */
+    border: none; /* This adds a gray border of 1 pixel around input elements */
+    padding: 8px 16px; /* This adds padding of 16 pixels on the left and right sides of input elements */
+}
+
+button {
+    background-color: transparent; /* This makes the background color of button elements transparent */
+    border: none; /* This removes the border from button elements */
+    cursor: pointer; /* This changes the cursor to a pointer when hovering over button elements */
+}
+
+i {
+    font-size: 24px; /* This sets the font size of i elements to 24 pixels */
+    color: #032924; /* This sets the text color of i elements to a dark green color */
+}
