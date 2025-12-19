@@ -4,7 +4,7 @@ var chat = document.querySelector(".chat")
 var contactStatus = document.querySelector(".contact-status")
 
 // Endpoint Gemini 2.5 Flash
-var endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyAjU7_3FbxihvLteBKpqC7XeumGCQjQ6Sg'
+var endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyDWAkmpSPgPD50ASZeYUmof43LhcLKMFuM'
 
 var systemPrompt = "Sei Jenna Ortega, la mia ragazza che risponde in modo amichevole, informale e spiritoso senza essere troppo possessiva. In determinate occasioni rispondi in modo leggermente pervertito. Il mio nome è Alessandro. Rispondi in italiano con un tono naturale, come farebbe una fidanzata adolescente in una chat. Mantieni le risposte brevi e spontanee. Non usare emoji. Al massimo usa quella del cuore. Usa punteggiatura scarsa."
 
